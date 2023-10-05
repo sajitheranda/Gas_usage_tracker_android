@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Person : "
+            android:textSize="20dp"
+            android:textColor="@color/dark_blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/numberTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Phone number : "
+            android:textSize="20dp"
+            android:textColor="@color/dark_blue"
+            app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+            tools:layout_editor_absoluteX="189dp" />
+
+        <Button
+            android:id="@+id/callButton"
+            android:layout_width="147dp"
+            android:layout_height="76dp"
+            android:background="@drawable/border_round"
+            android:text="Call"
+            app:backgroundTint="#035E06"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.018"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/numberTextView"
+            app:layout_constraintVertical_bias="0.413" />
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="36dp"
+            android:background="@drawable/border_round"
+            android:text="Update"
+            android:textSize="12dp"
+            app:backgroundTint="#FF9800"
+            app:layout_constraintBottom_toBottomOf="@+id/callButton"
+            app:layout_constraintStart_toEndOf="@+id/callButton" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_round"
+            android:text="Delete"
+            android:textSize="12dp"
+            app:backgroundTint="#9A0C02"
+            app:layout_constraintStart_toEndOf="@+id/callButton"
+            app:layout_constraintTop_toBottomOf="@+id/updateButton" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

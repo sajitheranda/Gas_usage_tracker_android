@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "619812229530",
+    "firebase_url": "https://gas-project-1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "gas-project-1",
+    "storage_bucket": "gas-project-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619812229530:android:500fd94d8728747488aa23",
+        "android_client_info": {
+          "package_name": "com.example.gasweighterlast"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf6UV-d0pPDDonZU4Xb0ZYzI2-5nyMB60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619812229530:android:82e763f65232354688aa23",
+        "android_client_info": {
+          "package_name": "com.example.gasweightlast"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf6UV-d0pPDDonZU4Xb0ZYzI2-5nyMB60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
