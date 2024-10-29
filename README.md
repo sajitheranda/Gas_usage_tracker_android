@@ -12,10 +12,8 @@
 4. [Usage](#usage)
 5. [Machine Learning Model](#machine-learning-model)
 6. [Documentation](#documentation)
-7. [License](#license)
-8. [Contact](#contact)
+7. [User Guide](#user-guide).
 9. [Installation](#installation)
-10. [Contributing](#contributing)
 
 ## Overview
 
@@ -73,10 +71,6 @@ The app employs a Machine Learning model to predict gas consumption patterns. Th
 ### User Guide
 - **Accessing Features**: Navigate through pages to view predictions, track usage, and detect leaks.
 - **Viewing Data**: All data visualizations and predictions update in real-time.
-
-### API Documentation
-- **Data Storage**: Firebase Realtime Database stores and syncs user data and gas usage data, ensuring real-time tracking.
-- **Leak Alerts**: Users can trigger alerts from the web interface, managed through Firebase.
 
 ## License
 
