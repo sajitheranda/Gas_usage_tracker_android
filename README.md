@@ -12,7 +12,7 @@
 4. [Usage](#usage)
 5. [Machine Learning Model](#machine-learning-model)
 6. [Documentation](#documentation)
-7. [User Guide](#user-guide).
+7. [User Guide](#user-guide)
 9. [Installation](#installation)
 
 ## Overview
@@ -122,4 +122,7 @@ To set up the Gas Weight Predictor Mobile App on your local machine:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/gas-weight-predictor-mobile-app.git
+   git clone https://github.com/sajitheranda/medical_data_collector.git
+2. Open the project in Android Studio.
+3. Sync Gradle files and build the application.
+4. Run the app on an Android emulator or a physical device.
