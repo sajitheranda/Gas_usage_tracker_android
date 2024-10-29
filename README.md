@@ -38,6 +38,11 @@ The **Gas Weight Predictor Mobile App** is an Android application developed in J
 
 ### Prediction Page
 - **Purpose**: This page provides an at-a-glance summary of current gas levels and predictive analytics powered by a Machine Learning model.
+
+| <img src="https://github.com/user-attachments/assets/40a3ea50-44f1-4bad-89f0-b17f6a43ce83" alt="Screenshot" width="300" /> |
+|:--:|
+| **Figure 4:** Prediction page |
+
 - **Metrics Displayed**:
   - **Remaining Gas Percentage**: A circular visual indicator showing the percentage of gas left.
   - **Remaining Days**: An estimate of how many days the remaining gas will last based on historical usage data.
