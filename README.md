@@ -70,6 +70,14 @@ The **Gas Weight Predictor Mobile App** is an Android application developed in J
 - **Leak Detection and Alarm Control**:
   - **Automatic Leak Detection**: Alerts users of potential leaks if abnormal weight reductions are detected.
   - **Remote Alarm Control**: Users can activate or deactivate the alarm via the web application interface, providing remote control over safety measures.
+ 
+### Contact List Page
+- Provides a list of essential contacts related to gas safety and delivery:
+  
+  - **Fire Brigade**: Quick access to emergency contacts.
+  - **Gas Delivery Person**: Contact details for easy refills.
+  - **Add New Contacts**: Option to add other relevant contacts as needed.
+  - **Features**: Add, update, delete, or directly call any contact from the list.
 
 ## Tech Stack
 
@@ -93,17 +101,6 @@ The app employs a Machine Learning model to predict gas consumption patterns. Th
 ### User Guide
 - **Accessing Features**: Navigate through pages to view predictions, track usage, and detect leaks.
 - **Viewing Data**: All data visualizations and predictions update in real-time.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions or support, please contact:
-
-- **Name**: Sajith Eranda
-- **Email**: [Your Email]
 
 ## Installation
 
