@@ -109,8 +109,8 @@ The documentation provides a comprehensive overview of the Gas Weight Predictor 
 - **User Guide**: Instructions for users on how to navigate and utilize the app effectively.
   
 - You can access the full documentation and presentation through the following links:
-  - [Technical Documentation](link-to-your-technical-documentation)
-  - [Presentation Slides](link-to-your-presentation)
+   - [Technical Documentation](https://github.com/user-attachments/files/17562547/Exmo.Gas.Cylinder.managenet.system.pdf)
+   - [Presentation](https://github.com/user-attachments/files/17562548/my.gas.cylinder.presentation.pdf)
 
 ### User Guide
 - **Accessing Features**: Navigate through pages to view predictions, track usage, and detect leaks.
