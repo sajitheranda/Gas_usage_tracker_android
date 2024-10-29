@@ -23,6 +23,12 @@ The **Gas Weight Predictor Mobile App** is an Android application developed in J
 
 ### User Input Page
 - **Purpose**: The User Input Page serves as the primary setup screen, where users enter essential details to initialize the app’s gas tracking capabilities.
+
+| <img src="https://github.com/user-attachments/assets/379a55ed-7935-4cc7-8499-47564c84b47e" alt="Home Page" width="300" /> | <img src="https://github.com/user-attachments/assets/e09c19a6-f642-4a1f-9465-99f784d912f5" alt="Home Type Select" width="300" /> | <img src="https://github.com/user-attachments/assets/b9b4b1d7-c903-4c2f-bbb7-08bc73133238" alt="Date Select" width="300" /> |
+|:--:|:--:|:--:|
+| **Figure 1:** Home Page | **Figure 2:** Home Type Selection | **Figure 3:** Date Selection |
+
+
 - **Details Captured**:
   - **Name**: The user’s full name for personalized record-keeping.
   - **Email**: User’s email address for notifications or account linking.
