@@ -102,6 +102,16 @@ The app employs a Machine Learning model to predict gas consumption patterns. Th
 
 ## Documentation
 
+The documentation provides a comprehensive overview of the Gas Weight Predictor App, including its architecture, functionalities, and user guide. This section contains:
+- **System Architecture**: An overview of the app’s architecture, detailing the interaction between the frontend and backend components.
+- **Database Schema**: A description of the data structure used in the Firebase Realtime Database, including key collections and their relationships.
+- **API Endpoints**: A detailed list of all API endpoints available in the app, including their request and response formats.
+- **User Guide**: Instructions for users on how to navigate and utilize the app effectively.
+  
+- You can access the full documentation and presentation through the following links:
+  - [Technical Documentation](link-to-your-technical-documentation)
+  - [Presentation Slides](link-to-your-presentation)
+
 ### User Guide
 - **Accessing Features**: Navigate through pages to view predictions, track usage, and detect leaks.
 - **Viewing Data**: All data visualizations and predictions update in real-time.
