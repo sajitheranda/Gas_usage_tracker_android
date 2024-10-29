@@ -61,6 +61,12 @@ The **Gas Weight Predictor Mobile App** is an Android application developed in J
 
 ### Gas Leak Detection Page
 - **Purpose**: This page monitors the gas weight data to detect sudden drops that could indicate a leak, offering an added layer of safety for the user.
+
+| <img src="https://github.com/user-attachments/assets/3819d51f-6b58-42fc-8d55-9e942eda3063" alt="Screenshot 1" width="300" /> | <img src="https://github.com/user-attachments/assets/690b27c5-0814-4c29-b5f8-aeba5f331716" alt="Screenshot 2" width="300" /> | <img src="https://github.com/user-attachments/assets/f4797d56-8b07-47e7-98d6-320503918c4a" alt="Gas Leak Test" width="300" /> |
+|:--:|:--:|:--:|
+| **Figure 6:** Alarm ON in Gas Leak Alarm | **Figure 7:** Alarm OFF in Gas Leak Alarm | **Figure 8:** Gas Leak Test |
+
+
 - **Leak Detection and Alarm Control**:
   - **Automatic Leak Detection**: Alerts users of potential leaks if abnormal weight reductions are detected.
   - **Remote Alarm Control**: Users can activate or deactivate the alarm via the web application interface, providing remote control over safety measures.
