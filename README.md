@@ -49,6 +49,11 @@ The **Gas Weight Predictor Mobile App** is an Android application developed in J
   - **Gas Weight Finish Date**: A predicted date when the gas is expected to be fully depleted.
 
 ### Gas Weight Chart Page
+
+| <img src="https://github.com/user-attachments/assets/14223bbb-b8be-4ef7-b4af-4b4f6f41547b" alt="Screenshot" width="300" /> |
+|:--:|
+| **Figure 5:** Gas Remaining Weights Chart Page |
+
 - **Purpose**: The Gas Weight Chart Page visualizes daily gas weight measurements, allowing users to track usage trends over time and detect any abnormal consumption patterns.
 - **Features**:
   - **Historical Data Visualization**: Daily gas weights are plotted to show trends, making it easier to understand consumption patterns.
