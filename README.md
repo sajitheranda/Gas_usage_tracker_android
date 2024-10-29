@@ -19,57 +19,64 @@
 
 ## Overview
 
-The **Gas Weight Predictor Mobile App** provides users with tools to track their gas usage, predict depletion dates, and detect potential gas leaks. Designed for Android, the app allows real-time tracking, updates, and leak detection directly from a mobile device, helping users manage gas consumption efficiently and safely.
+The **Gas Weight Predictor Mobile App** is an Android application developed in Java to monitor and manage household or industrial gas consumption. This app allows users to input details about their gas setup, track real-time gas usage data, predict gas depletion, and detect gas leaks remotely. With data synchronized in real-time through Firebase, users can view the remaining gas, estimate how long it will last, and even control alarms remotely to ensure safety and efficient management.
 
 ## Features
 
 ### User Input Page
-- Collects user details:
-  - **Name**
-  - **Email**
-  - **Gas Type** (e.g., propane, natural gas)
-  - **Starting Date**
-  - **Starting Time**
+- **Purpose**: The User Input Page serves as the primary setup screen, where users enter essential details to initialize the app’s gas tracking capabilities.
+- **Details Captured**:
+  - **Name**: The user’s full name for personalized record-keeping.
+  - **Email**: User’s email address for notifications or account linking.
+  - **Gas Type**: The type of gas (e.g., propane, natural gas), allowing for tailored monitoring.
+  - **Starting Date**: The date the gas usage began, to establish a baseline for predictions.
+  - **Starting Time**: The specific time the gas was first used, adding granularity to the data.
 
 ### Prediction Page
-- Displays:
-  - **Remaining Gas Percentage** in a circular progress view.
-  - **Remaining Days** until gas depletion.
-  - **Predicted Finish Date** based on the ML model.
+- **Purpose**: This page provides an at-a-glance summary of current gas levels and predictive analytics powered by a Machine Learning model.
+- **Metrics Displayed**:
+  - **Remaining Gas Percentage**: A circular visual indicator showing the percentage of gas left.
+  - **Remaining Days**: An estimate of how many days the remaining gas will last based on historical usage data.
+  - **Gas Weight Finish Date**: A predicted date when the gas is expected to be fully depleted.
 
 ### Gas Weight Chart Page
-- Shows a daily gas weight chart, allowing users to track gas usage trends over time.
+- **Purpose**: The Gas Weight Chart Page visualizes daily gas weight measurements, allowing users to track usage trends over time and detect any abnormal consumption patterns.
+- **Features**:
+  - **Historical Data Visualization**: Daily gas weights are plotted to show trends, making it easier to understand consumption patterns.
+  - **Easy-to-Read Chart**: A clear and interactive chart updates in real-time, with no need for reloading, using Firebase for seamless data access.
 
 ### Gas Leak Detection Page
-- Detects leaks by monitoring gas weight reduction without assumptions.
-- Users can activate or deactivate the leak alarm through the web interface from any location.
+- **Purpose**: This page monitors the gas weight data to detect sudden drops that could indicate a leak, offering an added layer of safety for the user.
+- **Leak Detection and Alarm Control**:
+  - **Automatic Leak Detection**: Alerts users of potential leaks if abnormal weight reductions are detected.
+  - **Remote Alarm Control**: Users can activate or deactivate the alarm via the web application interface, providing remote control over safety measures.
 
 ## Tech Stack
 
 - **Frontend**: Java (Android)
 - **Backend**: Firebase Realtime Database
-- **Real-Time Data Updates**: No need to reload the page to see different data.
+- **Real-Time Data Synchronization**: Data updates in real-time without needing manual refreshes, ensuring users always see current information.
 
 ## Usage
 
-1. **Input User Details**: Enter name, email, gas type, starting date, and starting time on the User Input Page.
-2. **View Predictions**: Check gas consumption predictions, including remaining gas percentage, remaining days, and the finish date on the Prediction Page.
-3. **Track Usage**: View historical gas usage data on the Gas Weight Chart Page.
-4. **Leak Detection**: Monitor for gas leaks and control the alarm from the Gas Leak Detection Page.
+1. **User Input**: Enter user details on the User Input Page, including name, email, gas type, start date, and time to initialize tracking.
+2. **Monitor Gas Predictions**: Check the Prediction Page for real-time updates on remaining gas, estimated days, and expected depletion date.
+3. **Track Usage Trends**: Access the Gas Weight Chart Page to view gas consumption over time in a clear, interactive chart.
+4. **Enable Leak Detection**: Monitor the Gas Leak Detection Page to receive alerts for potential leaks. Use the web application to control the alarm remotely.
 
 ## Machine Learning Model
 
-The app uses a Machine Learning model trained on historical gas consumption data to predict the depletion date based on real-time usage.
+The app employs a Machine Learning model to predict gas consumption patterns. This model uses user data and historical usage to forecast the remaining days and depletion date, helping users manage their gas supply efficiently.
 
 ## Documentation
 
 ### User Guide
-- **Navigating the App**: Open the app and enter the necessary details to start tracking.
-- **Viewing Data**: Switch between pages to access predictions, charts, and leak detection.
+- **Accessing Features**: Navigate through pages to view predictions, track usage, and detect leaks.
+- **Viewing Data**: All data visualizations and predictions update in real-time.
 
 ### API Documentation
-- **Data Handling**: Data is synchronized with Firebase in real time.
-- **Alerts**: Leak alerts can be managed via the web interface and are connected to Firebase for real-time control.
+- **Data Storage**: Firebase Realtime Database stores and syncs user data and gas usage data, ensuring real-time tracking.
+- **Leak Alerts**: Users can trigger alerts from the web interface, managed through Firebase.
 
 ## License
 
@@ -77,7 +84,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any questions or feedback, please contact:
+For questions or support, please contact:
 
 - **Name**: Sajith Eranda
 - **Email**: [Your Email]
